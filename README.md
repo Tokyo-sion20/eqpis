@@ -4,22 +4,31 @@
 # コードの配置
 ```both
 eqpis/
-├── index.html
 ├── package.json
 ├── vite.config.js
+├── index.html
 ├── public/
-│   └── icon.png
-└── src/
-    ├── main.jsx
-    ├── App.jsx
-    ├── components/
-    │   ├── EEWAlert.jsx
-    │   ├── QuakeList.jsx
-    │   └── MapView.jsx
-    ├── hooks/
-    │   └── useEEW.js
-    ├── styles/
-    │   └── index.css
-    └── utils/
-        └── quakeColor.js
+│   ├── alert.mp3
+│   └── manifest.json
+├── src/
+│   ├── main.jsx
+│   ├── App.jsx
+│   ├── styles/
+│   │   └── index.css
+│   ├── hooks/
+│   │   ├── useEEW.js
+│   │   └── useLocation.js
+│   ├── components/
+│   │   ├── EEWAlert.jsx
+│   │   ├── QuakeList.jsx
+│   │   ├── MapView.jsx
+│   │   └── Settings.jsx
+│   ├── utils/
+│   │   ├── quakeColor.js
+│   │   └── distance.js
+│   └── services/
+│       └── firebase.js
+└── server/
+    └── server.js
+
 ```
