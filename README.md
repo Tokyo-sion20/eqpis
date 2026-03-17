@@ -2,6 +2,7 @@
 オリジナルのEQPiS(地震情報提供システム) ©です。
 
 # コードの配置
+```both
 eqpis/
 ├── index.html
 ├── package.json
@@ -21,3 +22,4 @@ eqpis/
     │   └── index.css
     └── utils/
         └── quakeColor.js
+```
